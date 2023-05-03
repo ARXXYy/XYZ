@@ -1,0 +1,48 @@
+#slika-auta{
+    width:70rem;
+    height: 40rem;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    #slika-auta{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #slika-auta{
+        width: 100%;
+        height: 100%;
+    }
+}
+header {
+    background-image: url('../slike/audi-pozadina.jpg') !important;
+}
+.just{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
+.pomjeri{
+    margin-top: 0.6rem;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
